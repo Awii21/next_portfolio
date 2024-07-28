@@ -2,7 +2,10 @@ import Navbar from './navbar'
 import Footer from './footer'
 
 export default function Layout({ children }) {
+	
+	
 	return (
+		
 		<>
 		<Navbar />
 		<main>{children}</main>
@@ -10,3 +13,4 @@ export default function Layout({ children }) {
 		</>
 	)
 }
+export const runtime = "edge";
