@@ -27,7 +27,7 @@ export async function getServerSideProps({ res }) {
 	)
 
 	const [ gitUserRes, gitReposRes] = await Promise.all( [
-		fetch(`https://api.github.com/users/${settings.username.github}`),
+    fetch(`https://api.github.com/users/${settings.username.github}`),
 		fetch(`https://api.github.com/users/${settings.username.github}/repos`),
 	] )
 	

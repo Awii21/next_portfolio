@@ -28,8 +28,7 @@ export async function getServerSideProps({ res }) {
 	console.log(settings.username.medium)
 
 	const [ mediumRSS ] = await Promise.all( [
-		fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`),
-	] )
+    fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`),] )
 	
 	let [ mediumArticles ] = await Promise.all( [
 		mediumRSS.json(),
