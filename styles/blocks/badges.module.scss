@@ -35,6 +35,14 @@ $background: 	--background-dim2;
 		text-transform: uppercase;
 
 		color: var(--primary-dim);
+
+		&:hover {
+			transition-property: all;
+			transition-duration: 100ms;
+			transition-timing-function: ease-in-out;
+			scale: 1.15;
+		}
+		
 		
 		i, svg {
 			display: flex;
