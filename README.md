@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>andrewnelson.net | portfolio</h1>
+  <h1>awaisnext | portfolio</h1>
   <p></p>
   <img src="https://img.shields.io/badge/stability-beta-blue.svg" alt="Experimental">
   <img src="https://vercelbadge.vercel.app/api/atlamors/portfolio-theme" alt="Vercel">
@@ -9,9 +9,9 @@
   <br><br>
 </div>
 
-<img src="https://www.andrewnelson.net/img/preview.png">
+<img src="public/img/preview.png">
 
-## Updates
+<!-- ## Updates
 #### Dev Update — July 6th, 2023 🥰
 We have relocated to a beautiful home in the suburbs of Langely, BC. There has been a LOT of work unpacking, organizing, and landscaping to get this home perfect for our two toddlers! I am hoping to resume development of the theme in the next couple months!
 
@@ -54,5 +54,5 @@ Fork, Install, Editing, and Deploy instructions coming soon(ish)!
 This is my first open-source contribution, and it was also a great oppoortunity for me to learn! 
 
 It is my hope that by sharing this project it can give others a chance to enjoy learning Nextjs (and have as much fun as I did), and hopefully brings value to people as a portfolio and networking tool!
-
+ -->
 

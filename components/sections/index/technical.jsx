@@ -43,7 +43,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock 
 							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							copy="With over 6 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -73,15 +73,11 @@ export default function Technical() {
 }
 
 const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'pycharm', 		name: 'PyCharm', 			type: 'devicon' },
+
+
 ]
 
 const tech	= [
@@ -89,8 +85,6 @@ const tech	= [
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
 	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
 	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
 	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
@@ -100,4 +94,9 @@ const tech	= [
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'python', 		name: 'Python', 			type: 'devicon' },
+	{ key: 'numpy', 		name: 'NumPy', 				type: 'devicon' },
+	{ key: 'pandas', 		name: 'Pandas', 			type: 'devicon' },
+
+
 ]

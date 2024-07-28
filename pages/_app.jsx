@@ -35,6 +35,8 @@ import '../styles/css/global.css'
 export default function MyApp({ Component, pageProps }) {
 	return (
 		<>
+			<title>Awais | Next.js</title>
+	
 		<LazyMotion features={domAnimation}>
 			<Layout>
 				<Component {...pageProps} />

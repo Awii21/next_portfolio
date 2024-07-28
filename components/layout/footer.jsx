@@ -15,18 +15,18 @@ export default function Footer() {
 		forks: null,
 	});
 
-	useEffect(() => {
-		fetch( settings.portfolio.repo_api )
-			.then(response => response.json())
-			.then(json => {
-				const { stargazers_count, forks_count } = json;
-				setGitHubInfo({
-					stars: stargazers_count,
-					forks: forks_count,
-				});
-			})
-		.catch(e => console.error(e));
-	}, []);
+	// useEffect(() => {
+	// 	fetch( settings.portfolio.repo_api )
+	// 		.then(response => response.json())
+	// 		.then(json => {
+	// 			const { stargazers_count, forks_count } = json;
+	// 			setGitHubInfo({
+	// 				stars: stargazers_count,
+	// 				forks: forks_count,
+	// 			});
+	// 		})
+	// 	.catch(e => console.error(e));
+	// }, []);
 	
 	return (
 		<footer className={css.container}>
@@ -71,7 +71,7 @@ export default function Footer() {
 						</li>
 					</ul>
 				</section>
-				<section className={css.github}>
+				{/* <section className={css.github}>
 					<a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
 						<h5>{settings.portfolio.forkthis}</h5>
 						<ul>
@@ -83,7 +83,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</a>
-				</section>
+				</section> */}
 			</Container>
 			<canvas id="gradient-canvas" className={''} data-transition-in ></canvas>
 		</footer>

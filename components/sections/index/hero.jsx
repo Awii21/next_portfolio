@@ -65,11 +65,11 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:hello@andrewnelson.net' } >
+							onClick={ () => window.location = 'https://api.whatsapp.com/send/?phone=%2B923173002516&text&type=phone_number&app_absent=0' } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://www.linkedin.com/in/--andrewnelson/", "_blank") } >
+							onClick={ ()=> window.open("https://www.fiverr.com/awaissoomro21?up_rollout=true", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
 				</section>

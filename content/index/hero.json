@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Awais = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,11 +11,11 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Awais Soomro.",
+		"usp": "Crafting Immersive Digital Experiences."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "As a web developer and computer science student, I am on an exciting journey, delving into machine learning with PyTorch to innovate and create impactful digital solutions.",
 
 	"buttons": {
 		"primary": {
@@ -24,7 +24,7 @@
 			"leaveSite": false
 		},
 		"secondary": {
-			"title": "LinkedIn",
+			"title": "Fiverr",
 			"url": "",
 			"leaveSite": "true"
 		}
