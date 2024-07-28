@@ -16,6 +16,8 @@ import CopyBlock from '../../blocks/about.copy.block'
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss';
 
+
+
 /**
  * Section: About
  * An overview of yourself.

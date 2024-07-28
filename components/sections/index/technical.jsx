@@ -16,6 +16,7 @@ import CopyBlock from '../../blocks/about.copy.block'
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss'
 
+
 /**
  * Section: Technical
  * Highlight your technical skills with a short blurb about you,
