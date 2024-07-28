@@ -133,7 +133,7 @@ export default function Navbar() {
 	return (
 		<nav id="Navbar" className={css.container}>
 			<ul className={css.menu}>
-				<li className={`${css.menuHeader} transition-all duration-500 ease-in-out hover:drop-shadow-2xl hover:scale-110 hover:translate-x-2`}>
+				<li className={`${css.menuHeader} transition-all duration-500 ease-in-out hover:drop-shadow-2xl lg:hover:scale-110 lg:hover:translate-x-2`}>
 					<Link className={css.logo} href="/"  >
 						{settings.name}
 					</Link>
