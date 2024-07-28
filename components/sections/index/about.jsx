@@ -36,7 +36,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/myphoto.jpg" alt="my photo"/>
+						<img src="/img/myphoto.jpg" alt="my photo" className='transition-all duration-700 ease-in-out hover:shadow-2xl hover:scale-110'/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >

@@ -109,7 +109,7 @@ export default function SetTheme() {
 				document.querySelector(':root').dataset.theme = themeLocalStorage ?? themeSystem
 				`}
 			</Script>
-			<button key="themeToggle" onClick={toggleTheme} data-theme={theme} className={css.toggle}>{buttonIcon(theme)}</button>
+			<button key="themeToggle" onClick={toggleTheme} data-theme={theme} className={`${css.toggle} hover:animate-spin`}>{buttonIcon(theme)}</button>
 		</>
 	)
 }

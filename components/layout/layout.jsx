@@ -13,4 +13,3 @@ export default function Layout({ children }) {
 		</>
 	)
 }
-export const runtime = "edge";

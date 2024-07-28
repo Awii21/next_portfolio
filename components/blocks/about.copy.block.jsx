@@ -16,7 +16,7 @@ import space from '../utils/spacing.util';
 export default function CopyBlock({ containerClass, iconClass, icon, title, copy }) {
 	return (
 		<>
-		<div className={containerClass}>
+		<div className={`${containerClass} transition-all duration-700 ease-in-out hover:shadow-2xl hover:scale-110`}>
 			<span className={iconClass}>
 				<Icon icon={icon} />
 			</span>

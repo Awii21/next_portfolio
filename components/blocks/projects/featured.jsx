@@ -28,7 +28,7 @@ export default function FeaturedProject({ content }, index) {
 	return (
 		<m.section
 			key={index}
-			className={css.project}
+			className={`${css.project} transition-all ease-in-out duration-700 hover:shadow-2xl hover:scale-105 `}
 			//framer-motion
 			ref={ref}
 			variants={container}
@@ -48,7 +48,7 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
+					<m.div variants={''} className={`${css.viewProject} transition-all ease-in-out duration-500 hover:translate-x-4`}>
 						<a href={url} target="_blank" rel="noopener noreferrer">
 							<Icon icon={['fad', 'arrow-right-to-bracket']} />
 						</a>

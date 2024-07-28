@@ -133,7 +133,7 @@ export default function Navbar() {
 	return (
 		<nav id="Navbar" className={css.container}>
 			<ul className={css.menu}>
-				<li className={css.menuHeader}>
+				<li className={`${css.menuHeader} transition-all duration-500 ease-in-out hover:drop-shadow-2xl hover:scale-110 hover:translate-x-2`}>
 					<Link className={css.logo} href="/"  >
 						{settings.name}
 					</Link>
@@ -149,7 +149,7 @@ export default function Navbar() {
 						{
 						content.map( ({ url, title }, index) => {
 							return (
-								<li key={index}>
+								<li key={index} className='transition-all duration-300 ease-in-out hover:-translate-y-2'>
 									<Link href={url}>{title}</Link>
 								</li>
 							)
