@@ -6,8 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      padding: {
-        '15': '3.75rem', // 1rem = 4px by default, so 3.75rem = 15 * 0.25rem
+      colors: {
+        customYellow: '#e3b341',
+      },
+      keyframes: {
+        'scale-up-color-change': {
+          '0%, 100%': { transform: 'scale(1)', color: 'currentColor' },
+          '50%': { transform: 'scale(1.2)', color: '#f59e0b' }, // Tailwind yellow-500
+        },
+      },
+      animation: {
+        'scale-up-color-change': 'scale-up-color-change 1s ease-in-out forwards',
       },
     },
   },

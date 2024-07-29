@@ -52,7 +52,7 @@ export default function Hero() {
 					wrapper={content.intro.wrapper}
 					repeat={Infinity}
 				/>
-				<section>
+				<section className='cursor-default'>
 					<h1 className={hero.header}>
 						{content.header.name}
 					</h1>
@@ -60,7 +60,7 @@ export default function Hero() {
 						{content.header.usp}
 					</h1>
 				</section>
-				<section>
+				<section className='cursor-default'>
 					<p className={`${hero.primaryBright} subtitle ${space(["verticalLrg"])}`}>
 						{content.paragraph}
 					</p>

@@ -26,18 +26,18 @@ export default function GitProjects({ repos, user }) {
 						const date = new Date(pushed_at).toDateString()
 						return (
 							<>
-							<article key={index} className={css.project}>
+							<article key={index} className={`${css.project} transition-all ease-in-out duration-300 hover:shadow-2xl hover:scale-105`}>
 								<span className={css.header}>
-									<a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={html_url} rel="noreferrer" target="_blank" className='transition-all ease-in-out duration-200 hover:shadow-2xl hover:scale-105 hover:-translate-y-1'>{name} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
 									<p className={css.homepage}>{homepage}</p>
 								</span>
 								<span className={css.descriptionContainer}>
 									<p className={css.description}>{description}</p>
 								</span>
 								<span className={css.details}>
-									<p><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
-									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
-									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
+									<p className='cursor-default transition-all ease-in-out duration-300 hover:shadow-2xl hover:scale-110 hover:translate-x-3 hover:font-extrabold'><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
+									<p className='cursor-default font-bold transition-all duration-300 ease-in-out hover:scale-125 hover:text-customYellow'><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
+									<p className='cursor-default font-extrabold transition-all duration-300 ease-in-out hover:scale-125 hover:text-gray-950'><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
 									<p className={css.pushedAt}>{date}</p>
 								</span>
 								<span className={css.topicsContainer}>
