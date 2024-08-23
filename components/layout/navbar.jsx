@@ -149,7 +149,7 @@ export default function Navbar() {
 						{
 						content.map( ({ url, title }, index) => {
 							return (
-								<li key={index} className='transition-all duration-300 ease-in-out hover:-translate-y-2'>
+								<li key={index} className='transition-all duration-300 ease-in-out hover:-translate-y-1'>
 									<Link href={url}>{title}</Link>
 								</li>
 							)
